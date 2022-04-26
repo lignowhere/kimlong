@@ -465,7 +465,7 @@ label {
 	width: 100%;
 	height: auto;
 	z-index: 9;
-	border-bottom: 1px dashed #432f68;
+	border-bottom: 1px dashed #873703;
 	background: #1d102d;
 	background: -webkit-linear-gradient(to bottom, rgb(29, 16, 45), rgba(32, 19, 48, .1));
 	background: linear-gradient(to bottom, rgb(29, 16, 45), rgba(32, 19, 48, .1));
@@ -1343,7 +1343,7 @@ label {
 	margin-left: 5px;
 }
 .s-slider-bg {
-	background-image: url(../img/slider/slider_img03.jpg);
+	background-image: url(../img/slider/slider_img04.jpg);
 	min-height: 954px;
 	background-position: center;
 	background-size: cover;
