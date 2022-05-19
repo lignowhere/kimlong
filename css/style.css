@@ -4960,7 +4960,7 @@ blockquote.classic-blockquote-post::after {
 .hotline-phone-ring-wrap {
 	position: fixed;
 	bottom: 0;
-	left: 0;
+	left: 50%;
 	z-index: 999999;
   }
   .hotline-phone-ring {
@@ -5001,7 +5001,7 @@ blockquote.classic-blockquote-post::after {
 	top: 25px;
 	left: 25px;
 	position: absolute;
-	background-color: rgba(230, 8, 8, 0.7);
+	background-color: rgba(255, 72, 0, 0.7);
 	border-radius: 100%;
 	border: 2px solid transparent;
 	-webkit-animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
@@ -5012,7 +5012,7 @@ blockquote.classic-blockquote-post::after {
 	transform-origin: 50% 50%;
   }
   .hotline-phone-ring-img-circle {
-	  background-color: #e60808;
+	  background-color: #ff4800;
 	  width: 33px;
 	height: 33px;
 	top: 37px;
@@ -5045,7 +5045,7 @@ blockquote.classic-blockquote-post::after {
   }
   .hotline-bar {
 	position: absolute;
-	background: rgba(230, 8, 8, 0.75);
+	background: rgba(255, 72, 0, 0.75);
 	height: 40px;
 	width: 180px;
 	line-height: 40px;
@@ -5131,5 +5131,9 @@ blockquote.classic-blockquote-post::after {
   @media (max-width: 768px) {
 	.hotline-bar {
 	  display: none;
+	}
+
+	.hotline-phone-ring-wrap {
+		left: 35%;
 	}
   }
