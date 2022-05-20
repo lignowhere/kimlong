@@ -1356,11 +1356,11 @@ label {
 .s-slider-content h6 {
 	font-size: 18px;
 	font-weight: 600;
-	color: #fff;
+	color: #f00;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	display: inline-block;
-	background: #ff4800;
+	background: white;
 	line-height: 1;
 	padding: 16px 50px;
 	position: relative;
@@ -1374,7 +1374,7 @@ label {
 	height: 0;
 	border-style: solid;
 	border-width: 0 0 50px 25px;
-	border-color: transparent transparent #ff4800 transparent;
+	border-color: transparent transparent white transparent;
 }
 .s-slider-content h6::after {
 	content: "";
@@ -1385,7 +1385,7 @@ label {
 	height: 0;
 	border-style: solid;
 	border-width: 50px 25px 0 0;
-	border-color: #ff4800 transparent transparent transparent;
+	border-color: white transparent transparent transparent;
 }
 .s-slider-content h6 span.dots,
 .s-slider-content h6 span.dots2 {
@@ -1416,7 +1416,7 @@ label {
 	line-height: 1;
 }
 .s-slider-content h2 span {
-	color: #ff4612;
+	color: #2eff00;
 	line-height: 1;
 }
 .s-slider-content h2::before {
